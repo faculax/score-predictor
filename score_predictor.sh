@@ -2,6 +2,8 @@
 # score_predictor.sh
 # Usage: ./score_predictor.sh
 
+source ~/Development/score-predictor/venv/bin/activate
+
 ODDS_API_KEY="4d83f86451e51af03077f8c5d9f2a95d"
 TODAY=$(date +%Y-%m-%d)
 # Calculate next day for predictions
